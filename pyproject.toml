@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pubmed-paper-fetcher"
+version = "0.1.0"
+description = ""
+authors = ["Varun Saxena <128629822+varunsaxena29@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pubmed_paper_fetcher", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.4"
+xmltodict = "^0.14.2"
+typer = "^0.16.0"
+pandas = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+get-papers-list = "pubmed_paper_fetcher.cli:main"
