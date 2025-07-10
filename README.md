@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🧪 PubMed Paper Fetcher
 
 A Python CLI tool that fetches PubMed research papers based on a user-defined query and filters results to identify papers authored by pharmaceutical or biotech companies. Outputs results in CSV format.
