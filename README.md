@@ -127,9 +127,3 @@ This project is licensed under the MIT License.
 
 Built with ❤️ by **Srishty007**
 🔗 GitHub: [github.com/Srishty007](https://github.com/Srishty007)
-
----
-
-```
-
----
